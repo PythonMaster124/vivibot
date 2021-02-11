@@ -233,3 +233,5 @@ async def clear_error( ctx, error ):
             await ctx.send( f'{ ctx.author.name }, у вас недостаточно прав!' )
 #Подключение
 token = os.environ.get('BOT_TOKEN')
+
+bot.run(str(token))
